@@ -1,4 +1,4 @@
-media = float(input("Digitea media:"))
+media = float(input("Digite a media:"))
 if media >= 7:
     print("Aprovado")
 elif media >= 5:
