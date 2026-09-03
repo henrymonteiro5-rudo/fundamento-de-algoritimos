@@ -1,7 +1,8 @@
 s = 0
+a = 0
 while True:
     n = int(input("digite um numero:"))
-    if n == 0:
-        break
     s += n
-print("a soma é:", s)
+    a += 1
+    print("a soma é:", s)
+    print("a quantidade de numeros digitados é:", a)
