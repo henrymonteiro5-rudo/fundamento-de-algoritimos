@@ -1,6 +1,4 @@
 def triangulo(a, b):
-    r = (a * b) / 2
-    return r
+    return (a * b) / 2
 
-x = triangulo(10, 20)
-print(x)
+triangulo(10, 20)
